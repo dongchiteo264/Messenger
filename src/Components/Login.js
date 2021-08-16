@@ -1,14 +1,9 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import React, { Component, useEffect, useState } from 'react';
 import {
-    SafeAreaView,
-    ScrollView,
-    StatusBar,
     StyleSheet,
     Text,
-    useColorScheme,
     View,
-    AppRegistry,
     Image,
     TextInput,
     KeyboardAvoidingView,
@@ -16,7 +11,6 @@ import {
     Keyboard,
     TouchableOpacity,
     Dimensions,
-    Button,
     LogBox,
 }
     from 'react-native';
