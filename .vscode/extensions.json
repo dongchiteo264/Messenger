@@ -2,6 +2,7 @@
     "recommendations": [
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
-        "msjsdiag.vscode-react-native"
+        "msjsdiag.vscode-react-native",
+        "formulahendry.auto-close-tag"
     ]
 }
