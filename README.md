@@ -3,4 +3,4 @@
 - ReactNative
 - This's app still have a lot problem, hope someone help me finish it :)
 - Happy Codding!! :P
-- ok 
+- o
