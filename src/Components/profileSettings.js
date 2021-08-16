@@ -48,15 +48,6 @@ const profileSetting = ({navigation}) => {
             navigation.replace('HomeChat');
         }, 500);
     }
-
-    const Avatarchange = () => (
-        <Dialog.Container visible={visible}>
-            <Dialog.Title>Nhập link Avatar</Dialog.Title>
-            <Dialog.Input label='link' onChangeText={(text) => setAvatar(text)}></Dialog.Input>
-            <Dialog.Button label="Huỷ" onPress={handleCancel} />
-            <Dialog.Button label="Đồng ý" onPress={updateAvatar} />
-        </Dialog.Container>
-    )
     return (
         <View>
             <Button title='Đổi avatar' onPress={showDialog}></Button>
